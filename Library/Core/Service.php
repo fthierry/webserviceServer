@@ -9,7 +9,7 @@ class Library_Core_Service extends Library_Core_Extensions {
         }
 		
 		// Ajout des controllers
-		$extensions = array ('Application_Controllers_Exemple');
+		$extensions = array ('Application_Controllers_Exemples');
 		
 		parent::__construct($extensions);
     }
